@@ -1,0 +1,20 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  joints:
+    - JTBKL
+    - JTBKR
+    - JTFRL
+    - JTFRR
+
+rear_wheel_controller:
+  type: velocity_controllers/JointVelocityController
+  joints:
+    - JTBKL
+    - JTBKR
+
+front_wheel_controller:
+  type: velocity_controllers/JointVelocityController
+  joints:
+    - JTFRL
+    - JTFRR
+

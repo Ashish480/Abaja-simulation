@@ -1,0 +1,77 @@
+[0.009s] Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+[0.029s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.100s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.100s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.118s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.119s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.122s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.151s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.267s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.285s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.286s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.289s] -- Searching for dependencies of ignition-math6
+[0.290s] -- Looking for OGRE...
+[0.295s] -- Found Ogre Ghadamon (1.9.0)
+[0.295s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.300s] -- Looking for OGRE_Paging...
+[0.300s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.300s] -- Looking for OGRE_Terrain...
+[0.300s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.300s] -- Looking for OGRE_Property...
+[0.301s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.301s] -- Looking for OGRE_RTShaderSystem...
+[0.301s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.301s] -- Looking for OGRE_Volume...
+[0.301s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.301s] -- Looking for OGRE_Overlay...
+[0.301s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.365s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.366s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.366s] -- Searching for dependencies of ignition-transport8
+[0.382s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.390s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.395s] -- Checking for module 'libzmq >= 4'
+[0.407s] --   Found libzmq , version 4.3.4
+[0.444s] -- Checking for module 'uuid'
+[0.454s] --   Found uuid, version 2.37.2
+[0.488s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.488s] -- Searching for dependencies of ignition-msgs5
+[0.502s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.506s] -- Checking for module 'tinyxml2'
+[0.517s] --   Found tinyxml2, version 9.0.0
+[0.548s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.548s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.548s] -- Searching for dependencies of ignition-common3
+[0.549s] -- Looking for dlfcn.h - found
+[0.549s] -- Looking for libdl - found
+[0.557s] -- Searching for <ignition-common3> component [graphics]
+[0.557s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.557s] -- Searching for dependencies of ignition-common3-graphics
+[0.558s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.558s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.558s] -- Searching for dependencies of ignition-fuel_tools4
+[0.587s] -- Checking for module 'jsoncpp'
+[0.598s] --   Found jsoncpp, version 1.9.5
+[0.634s] -- Checking for module 'libzip'
+[0.646s] --   Found libzip, version 1.7.3
+[0.677s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.678s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.678s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.679s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.679s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.686s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.688s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.688s]   ament_target_dependencies() the passed package name 'ackermann_msgs' was
+[0.688s]   not found before
+[0.688s] Call Stack (most recent call first):
+[0.688s]   CMakeLists.txt:21 (ament_target_dependencies)
+[0.688s] 
+[0.688s] [0m
+[0.688s] -- Configuring incomplete, errors occurred!
+[0.688s] See also "/home/ashy/baja_ws/build/vehicle/CMakeFiles/CMakeOutput.log".
+[0.694s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.697s] Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16

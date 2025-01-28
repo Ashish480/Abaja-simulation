@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/acker.dir/src/ackermann_control.cpp.o[0m
+[0.183s] [01m[K/home/ashy/baja_ws/src/vehicle/src/ackermann_control.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kackermann_msgs/msg/ackermann_drive.hpp: No such file or directory
+[0.184s]     2 | #include [01;31m[K"ackermann_msgs/msg/ackermann_drive.hpp"[m[K
+[0.184s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.184s] compilation terminated.
+[0.187s] gmake[2]: *** [CMakeFiles/acker.dir/build.make:76: CMakeFiles/acker.dir/src/ackermann_control.cpp.o] Error 1
+[0.187s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/acker.dir/all] Error 2
+[0.188s] gmake: *** [Makefile:146: all] Error 2
+[0.191s] Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16

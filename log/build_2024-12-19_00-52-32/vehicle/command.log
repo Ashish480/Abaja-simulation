@@ -1,0 +1,6 @@
+Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/baja_ws/src/vehicle -Wno-dev -DCMAKE_INSTALL_PREFIX=/home/ashy/baja_ws/install/vehicle
+Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashy/baja_ws/src/vehicle -Wno-dev -DCMAKE_INSTALL_PREFIX=/home/ashy/baja_ws/install/vehicle
+Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/baja_ws/build/vehicle
+Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/baja_ws/build/vehicle

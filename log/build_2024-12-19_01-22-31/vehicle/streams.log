@@ -1,0 +1,112 @@
+[0.007s] Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+[0.028s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.100s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[0.116s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.117s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.120s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.150s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.235s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.273s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.291s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.293s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.295s] -- Searching for dependencies of ignition-math6
+[0.296s] -- Looking for OGRE...
+[0.300s] -- Found Ogre Ghadamon (1.9.0)
+[0.300s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.306s] -- Looking for OGRE_Paging...
+[0.306s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.306s] -- Looking for OGRE_Terrain...
+[0.306s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.306s] -- Looking for OGRE_Property...
+[0.306s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.306s] -- Looking for OGRE_RTShaderSystem...
+[0.306s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.306s] -- Looking for OGRE_Volume...
+[0.306s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.306s] -- Looking for OGRE_Overlay...
+[0.306s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.370s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.371s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.371s] -- Searching for dependencies of ignition-transport8
+[0.387s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.394s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.399s] -- Checking for module 'libzmq >= 4'
+[0.410s] --   Found libzmq , version 4.3.4
+[0.448s] -- Checking for module 'uuid'
+[0.460s] --   Found uuid, version 2.37.2
+[0.491s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.491s] -- Searching for dependencies of ignition-msgs5
+[0.506s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.509s] -- Checking for module 'tinyxml2'
+[0.521s] --   Found tinyxml2, version 9.0.0
+[0.553s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.554s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.554s] -- Searching for dependencies of ignition-common3
+[0.554s] -- Looking for dlfcn.h - found
+[0.554s] -- Looking for libdl - found
+[0.562s] -- Searching for <ignition-common3> component [graphics]
+[0.562s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.563s] -- Searching for dependencies of ignition-common3-graphics
+[0.563s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.563s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.564s] -- Searching for dependencies of ignition-fuel_tools4
+[0.593s] -- Checking for module 'jsoncpp'
+[0.603s] --   Found jsoncpp, version 1.9.5
+[0.641s] -- Checking for module 'libzip'
+[0.653s] --   Found libzip, version 1.7.3
+[0.684s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.685s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.685s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.685s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.686s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.692s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.695s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.732s] -- Configuring done
+[0.739s] -- Generating done
+[0.742s] -- Build files have been written to: /home/ashy/baja_ws/build/vehicle
+[0.774s] [ 50%] [32mBuilding CXX object CMakeFiles/acker.dir/src/ackermann_control.cpp.o[0m
+[3.270s] [100%] [32m[1mLinking CXX executable acker[0m
+[3.386s] [100%] Built target acker
+[3.395s] Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+[3.403s] Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ashy/baja_ws/build/vehicle
+[3.408s] -- Install configuration: ""
+[3.408s] -- Installing: /home/ashy/baja_ws/install/vehicle/lib/vehicle/acker
+[3.409s] -- Set runtime path of "/home/ashy/baja_ws/install/vehicle/lib/vehicle/acker" to ""
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/lib/vehicle/scripts/calibration_publisher.py
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/BKR.STL
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/FRR.STL
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/FRL.STL
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/BKL.STL
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/base_link.STL
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3.csv
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3.urdf
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3/B4WTYPE3.usd
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3.config
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/vehicle.config
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//config
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//config/ackermann_controller.yaml
+[3.409s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//config/joint_names_B4WTYPE3.yaml
+[3.409s] -- Installing: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/package_run_dependencies/vehicle
+[3.410s] -- Installing: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/parent_prefix_path/vehicle
+[3.410s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/ament_prefix_path.sh
+[3.410s] -- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/ament_prefix_path.dsv
+[3.410s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/path.sh
+[3.410s] -- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/path.dsv
+[3.410s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.bash
+[3.410s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.sh
+[3.410s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.zsh
+[3.410s] -- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.dsv
+[3.410s] -- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/package.dsv
+[3.410s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/packages/vehicle
+[3.410s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/cmake/vehicleConfig.cmake
+[3.410s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/cmake/vehicleConfig-version.cmake
+[3.410s] -- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/package.xml
+[3.412s] Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ashy/baja_ws/build/vehicle

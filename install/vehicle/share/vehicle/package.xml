@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vehicle</name>
+  <version>0.0.0</version>
+  <description>Vehicle simulation package for ROS 2.</description>
+  
+  <maintainer email="ashy@todo.todo">ashy</maintainer>
+  <license>Apache-2.0</license>  <!-- Update with your preferred license -->
+
+  <!-- Build dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclcpp</depend>
+  <depend>ackermann_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>gazebo_ros</depend>
+  <exec_depend>rclpy</exec_depend>
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+  <depend>controller_manager</depend>
+  <depend>gazebo_ros2_control</depend>
+
+
+  <!-- Testing dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_model_path>${prefix}/share/vehicle</gazebo_model_path>
+    <gazebo_ros gazebo_model_path = "/home/ashy/baja_ws/install/vehicle/share/vehicle/model/"/>
+  </export>
+</package>
+

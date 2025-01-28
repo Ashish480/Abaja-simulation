@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (vehicle) JobQueued: {'identifier': 'vehicle', 'dependencies': OrderedDict()}
+[0.000467] (vehicle) JobStarted: {'identifier': 'vehicle'}
+[0.007750] (vehicle) JobProgress: {'identifier': 'vehicle', 'progress': 'cmake'}
+[0.008794] (vehicle) JobProgress: {'identifier': 'vehicle', 'progress': 'build'}
+[0.008844] (vehicle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ashy/baja_ws/build/vehicle', '--', '-j16', '-l16'], 'cwd': '/home/ashy/baja_ws/build/vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ashy'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ashy'), ('OLDPWD', '/home/ashy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1964'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ashy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ashy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ashy/miniconda3/bin:/usr/local/cuda/bin:/home/ashy/miniconda3/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/ashy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ashy-OMEN:@/tmp/.ICE-unix/1936,unix/ashy-OMEN:/tmp/.ICE-unix/1936'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/70dcd09b_2b21_42b5_900b_df9dc43c64be'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.280'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ashy/baja_ws/build/vehicle'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ashy/YOLOP:/home/ashy/YOLOP:/home/ashy/YOLOP:/home/ashy/YOLOP'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/lib/x86_64-linux-gnu/cmake/ignition-msgs6:/usr/lib/x86_64-linux-gnu/cmake/ignition-msgs6:/usr/include/ignition::/opt/ros/humble')]), 'shell': False}
+[0.033517] (vehicle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099436] (-) TimerEvent: {}
+[0.122354] (vehicle) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[0.140332] (vehicle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.141764] (vehicle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.145535] (vehicle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.151368] (vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.158805] (vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.181117] (vehicle) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.181328] (vehicle) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.197153] (vehicle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.198064] (vehicle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199482] (-) TimerEvent: {}
+[0.278304] (vehicle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299641] (-) TimerEvent: {}
+[0.300014] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.16.0\n'}
+[0.302757] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[0.302974] (vehicle) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[0.303243] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[0.307751] (vehicle) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.319418] (vehicle) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.354027] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.354585] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.355254] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.355468] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.356292] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.356571] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.356819] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[0.357049] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[0.357283] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[0.357500] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.357714] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[0.357958] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[0.358381] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[0.358606] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[0.383879] (vehicle) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.388188] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.399919] (vehicle) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.400077] (-) TimerEvent: {}
+[0.441997] (vehicle) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.454154] (vehicle) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.486429] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.486741] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.486878] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[0.487031] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[0.487340] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[0.487817] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.488014] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[0.500196] (-) TimerEvent: {}
+[0.503543] (vehicle) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.504142] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.511244] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[0.511470] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[0.511823] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[0.512063] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[0.512304] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[0.512589] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[0.513116] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.513365] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.513616] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[0.513712] (vehicle) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.513755] (vehicle) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.520941] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[0.521200] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[0.521496] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[0.521785] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[0.521987] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[0.522269] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[0.522503] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.522740] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[0.522962] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[0.523207] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[0.529244] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[0.542819] (vehicle) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[0.577988] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[0.590950] (vehicle) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[0.600312] (-) TimerEvent: {}
+[0.630824] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[0.643924] (vehicle) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[0.682428] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[0.694116] (vehicle) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[0.700428] (-) TimerEvent: {}
+[0.734530] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[0.747000] (vehicle) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[0.780597] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[0.780825] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[0.800551] (-) TimerEvent: {}
+[0.814691] (vehicle) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.829088] (vehicle) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.868905] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.880935] (vehicle) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[0.900680] (-) TimerEvent: {}
+[0.912864] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.913096] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.913361] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.914016] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[0.914245] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[0.939940] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.940260] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.940490] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.940732] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[0.940996] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[0.941272] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[0.941448] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.941679] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.941761] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[0.941942] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[0.942196] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[0.943068] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.943444] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[0.943514] (vehicle) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.943561] (vehicle) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.951367] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[0.951570] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[0.951841] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[0.952022] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.952299] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.952634] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[0.953087] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.953304] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.953381] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[0.953560] (vehicle) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[0.953846] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.955065] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.963996] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[0.964219] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[0.964467] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.964740] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.964930] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.965550] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[0.965752] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[0.966039] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[0.966252] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.966478] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[0.966673] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[0.966932] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[0.967147] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.967398] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[0.967615] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[0.967875] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[0.968085] (vehicle) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[0.968601] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[0.968838] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[0.984441] (vehicle) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.984990] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.985257] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.985542] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[0.985816] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[0.986035] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.986264] (vehicle) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[0.986599] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[0.986825] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.1\n'}
+[0.987112] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[0.987355] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[0.987547] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.1\n'}
+[0.987802] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[0.988031] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[0.988314] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.1\n'}
+[0.988525] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[0.988828] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[0.989015] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.1\n'}
+[0.989305] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[0.989590] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[0.989774] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.1\n'}
+[0.990039] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[0.990311] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[0.990521] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.1\n'}
+[0.990771] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[0.991040] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[0.991247] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.1\n'}
+[0.991504] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[0.991764] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[0.991993] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.1\n'}
+[0.992245] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[0.992519] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[0.992737] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.1\n'}
+[0.992992] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[0.993221] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[0.993539] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[0.993752] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1\n'}
+[0.994008] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[0.994226] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[0.994624] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[0.994846] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.1\n'}
+[0.995102] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[0.995316] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[0.995615] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[0.995842] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1\n'}
+[0.996093] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[0.996373] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[0.996585] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1\n'}
+[0.996843] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[0.997107] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[0.997316] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.1\n'}
+[0.997587] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[0.997811] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[0.998107] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[0.998326] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1\n'}
+[0.998585] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[0.998803] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[0.999090] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[0.999305] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1\n'}
+[0.999573] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[0.999790] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.000345] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.000579] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.000736] (-) TimerEvent: {}
+[1.000969] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.017629] (vehicle) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.025390] (vehicle) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.029460] (vehicle) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[1.029632] (vehicle) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'ignition-msgs6' was\n"}
+[1.029674] (vehicle) StderrLine: {'line': b'  not found before\n'}
+[1.029704] (vehicle) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.029737] (vehicle) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_target_dependencies)\n'}
+[1.029764] (vehicle) StderrLine: {'line': b'\n'}
+[1.029790] (vehicle) StderrLine: {'line': b'\x1b[0m\n'}
+[1.029842] (vehicle) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.029912] (vehicle) StdoutLine: {'line': b'See also "/home/ashy/baja_ws/build/vehicle/CMakeFiles/CMakeOutput.log".\n'}
+[1.038362] (vehicle) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.041552] (vehicle) CommandEnded: {'returncode': 2}
+[1.049755] (vehicle) JobEnded: {'identifier': 'vehicle', 'rc': 2}
+[1.060227] (-) EventReactorShutdown: {}

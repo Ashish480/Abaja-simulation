@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (vehicle) JobQueued: {'identifier': 'vehicle', 'dependencies': OrderedDict()}
+[0.000511] (vehicle) JobStarted: {'identifier': 'vehicle'}
+[0.010354] (vehicle) JobProgress: {'identifier': 'vehicle', 'progress': 'cmake'}
+[0.011663] (vehicle) JobProgress: {'identifier': 'vehicle', 'progress': 'build'}
+[0.012274] (vehicle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ashy/baja_ws/build/vehicle', '--', '-j16', '-l16'], 'cwd': '/home/ashy/baja_ws/build/vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ashy'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ashy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2014'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=80e5bc07f5c494af22680b1c6762b5f6'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ashy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ashy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ashy/miniconda3/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/ashy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ashy-OMEN:@/tmp/.ICE-unix/2014,unix/ashy-OMEN:/tmp/.ICE-unix/2014'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc9f8772_f47d_4d14_9477_09ebf51f2762'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ashy/baja_ws/build/vehicle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=80e5bc07f5c494af22680b1c6762b5f6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067483] (vehicle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099909] (-) TimerEvent: {}
+[0.182426] (vehicle) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.182765] (vehicle) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199986] (-) TimerEvent: {}
+[0.215172] (vehicle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.217989] (vehicle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.226872] (vehicle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.236622] (vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.248277] (vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.279341] (vehicle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.281613] (vehicle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300078] (-) TimerEvent: {}
+[0.385271] (vehicle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400207] (-) TimerEvent: {}
+[0.442124] (vehicle) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.442375] (vehicle) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.442461] (vehicle) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.442537] (vehicle) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.442597] (vehicle) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.442652] (vehicle) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.442705] (vehicle) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.442758] (vehicle) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.442808] (vehicle) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[0.442858] (vehicle) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.442907] (vehicle) StderrLine: {'line': b'\x1b[0m\n'}
+[0.475353] (vehicle) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.500323] (-) TimerEvent: {}
+[0.515825] (vehicle) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.517546] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.525596] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.527578] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.533848] (vehicle) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.534169] (vehicle) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.541145] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.541405] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.541452] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.541484] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.541520] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.541549] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.541581] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.541647] (vehicle) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.541678] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.541703] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.541729] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.541755] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.600446] (-) TimerEvent: {}
+[0.623632] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.624877] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.625298] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.643858] (vehicle) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.653482] (vehicle) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.659129] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.675970] (vehicle) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.700564] (-) TimerEvent: {}
+[0.718741] (vehicle) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.732192] (vehicle) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.766965] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.767243] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.786005] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.792341] (vehicle) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.800714] (-) TimerEvent: {}
+[0.804018] (vehicle) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.838494] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.839008] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.839320] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.839513] (vehicle) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.839550] (vehicle) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.852966] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.853458] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.853768] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.853981] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.855294] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.855558] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.899029] (vehicle) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.900751] (-) TimerEvent: {}
+[0.913375] (vehicle) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.956571] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.970931] (vehicle) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.000894] (-) TimerEvent: {}
+[1.007142] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.007419] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.007720] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.022956] (vehicle) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[1.023279] (vehicle) StderrLine: {'line': b'  By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.023375] (vehicle) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.023437] (vehicle) StderrLine: {'line': b'  "gazebo_ros_pkgs", but CMake did not find one.\n'}
+[1.023492] (vehicle) StderrLine: {'line': b'\n'}
+[1.023544] (vehicle) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo_ros_pkgs"\n'}
+[1.023594] (vehicle) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.023644] (vehicle) StderrLine: {'line': b'\n'}
+[1.023694] (vehicle) StderrLine: {'line': b'    gazebo_ros_pkgsConfig.cmake\n'}
+[1.023744] (vehicle) StderrLine: {'line': b'    gazebo_ros_pkgs-config.cmake\n'}
+[1.023793] (vehicle) StderrLine: {'line': b'\n'}
+[1.023842] (vehicle) StderrLine: {'line': b'  Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or\n'}
+[1.023891] (vehicle) StderrLine: {'line': b'  set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.\n'}
+[1.023939] (vehicle) StderrLine: {'line': b'  If "gazebo_ros_pkgs" provides a separate development package or SDK, be\n'}
+[1.023988] (vehicle) StderrLine: {'line': b'  sure it has been installed.\n'}
+[1.024036] (vehicle) StderrLine: {'line': b'\n'}
+[1.024084] (vehicle) StderrLine: {'line': b'\x1b[0m\n'}
+[1.024132] (vehicle) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.024191] (vehicle) StdoutLine: {'line': b'See also "/home/ashy/baja_ws/build/vehicle/CMakeFiles/CMakeOutput.log".\n'}
+[1.040357] (vehicle) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[1.044138] (vehicle) CommandEnded: {'returncode': 2}
+[1.088459] (vehicle) JobEnded: {'identifier': 'vehicle', 'rc': 2}
+[1.098789] (-) EventReactorShutdown: {}

@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+[0.060s] Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+[0.102s] Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/baja_ws/build/vehicle
+[0.109s] -- Install configuration: ""
+[0.109s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/package_run_dependencies/vehicle
+[0.109s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/parent_prefix_path/vehicle
+[0.109s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/ament_prefix_path.sh
+[0.109s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/ament_prefix_path.dsv
+[0.109s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/path.sh
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/path.dsv
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.bash
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.sh
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.zsh
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.dsv
+[0.110s] -- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/package.dsv
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/packages/vehicle
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/cmake/vehicleConfig.cmake
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/cmake/vehicleConfig-version.cmake
+[0.110s] -- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/package.xml
+[0.112s] Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashy/baja_ws/build/vehicle

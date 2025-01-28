@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (vehicle) JobQueued: {'identifier': 'vehicle', 'dependencies': OrderedDict()}
+[0.000176] (vehicle) JobStarted: {'identifier': 'vehicle'}
+[0.007987] (vehicle) JobProgress: {'identifier': 'vehicle', 'progress': 'cmake'}
+[0.008572] (vehicle) JobProgress: {'identifier': 'vehicle', 'progress': 'build'}
+[0.009157] (vehicle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ashy/baja_ws/build/vehicle', '--', '-j16', '-l16'], 'cwd': '/home/ashy/baja_ws/build/vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ashy'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ashy'), ('OLDPWD', '/home/ashy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ashy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ashy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ashy/miniconda3/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/ashy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ashy-OMEN:@/tmp/.ICE-unix/1992,unix/ashy-OMEN:/tmp/.ICE-unix/1992'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bb1d560_bbaf_4af2_bd43_1db450f6f26d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.197'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ashy/baja_ws/build/vehicle'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ashy/YOLOP:/home/ashy/YOLOP'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/lib/x86_64-linux-gnu/cmake/ignition-msgs6::/opt/ros/humble')]), 'shell': False}
+[0.034344] (vehicle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099568] (-) TimerEvent: {}
+[0.112215] (vehicle) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[0.135936] (vehicle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.137186] (vehicle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.140311] (vehicle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.145454] (vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.152011] (vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.170794] (vehicle) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.170989] (vehicle) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.185037] (vehicle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.185815] (vehicle) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.195631] (vehicle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.199654] (-) TimerEvent: {}
+[0.216348] (vehicle) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[0.240245] (vehicle) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.259148] (vehicle) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.260330] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.263065] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.264025] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.268710] (vehicle) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.268889] (vehicle) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.274146] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.274305] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.274389] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.274459] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.274525] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.274640] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.274809] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.274929] (vehicle) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.275008] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.275085] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.275166] (vehicle) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.275225] (vehicle) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.299761] (-) TimerEvent: {}
+[0.343321] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.343572] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.343827] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.363113] (vehicle) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.371507] (vehicle) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.375698] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.387965] (vehicle) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.399869] (-) TimerEvent: {}
+[0.428750] (vehicle) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.440760] (vehicle) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.471933] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.472255] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.487658] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.492122] (vehicle) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.499972] (-) TimerEvent: {}
+[0.503696] (vehicle) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.545160] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.545597] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.545968] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.546162] (vehicle) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.546257] (vehicle) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.554620] (vehicle) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.554840] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.555121] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.555309] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.555782] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.555994] (vehicle) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.585222] (vehicle) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.599091] (vehicle) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.600048] (-) TimerEvent: {}
+[0.636736] (vehicle) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.649010] (vehicle) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[0.685545] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.685750] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.685954] (vehicle) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.688386] (vehicle) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[0.688695] (vehicle) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[0.700159] (-) TimerEvent: {}
+[0.715442] (vehicle) StdoutLine: {'line': b'-- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.719202] (vehicle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.761170] (vehicle) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.761435] (vehicle) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ashy/baja_ws/src/vehicle/include>\n'}
+[0.761537] (vehicle) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.761651] (vehicle) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.762003] (vehicle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.762232] (vehicle) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.763501] (vehicle) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.763550] (vehicle) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.763766] (vehicle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.764272] (vehicle) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.777521] (vehicle) StdoutLine: {'line': b'-- Generating done\n'}
+[0.780712] (vehicle) StdoutLine: {'line': b'-- Build files have been written to: /home/ashy/baja_ws/build/vehicle\n'}
+[0.800273] (-) TimerEvent: {}
+[0.806702] (vehicle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target acker\x1b[0m\n'}
+[0.822032] (vehicle) StdoutLine: {'line': b'[100%] Built target acker\n'}
+[0.833261] (vehicle) CommandEnded: {'returncode': 0}
+[0.834042] (vehicle) JobProgress: {'identifier': 'vehicle', 'progress': 'install'}
+[0.842516] (vehicle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ashy/baja_ws/build/vehicle'], 'cwd': '/home/ashy/baja_ws/build/vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ashy'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ashy'), ('OLDPWD', '/home/ashy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ashy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ashy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ashy/miniconda3/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/ashy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ashy-OMEN:@/tmp/.ICE-unix/1992,unix/ashy-OMEN:/tmp/.ICE-unix/1992'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bb1d560_bbaf_4af2_bd43_1db450f6f26d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.197'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ashy/baja_ws/build/vehicle'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/ashy/YOLOP:/home/ashy/YOLOP'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/lib/x86_64-linux-gnu/cmake/ignition-msgs6::/opt/ros/humble')]), 'shell': False}
+[0.848362] (vehicle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.848477] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/lib/vehicle/scripts/calibration_publisher.py\n'}
+[0.848549] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes\n'}
+[0.848594] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/BKR.STL\n'}
+[0.848653] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/FRR.STL\n'}
+[0.848727] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/FRL.STL\n'}
+[0.848784] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/BKL.STL\n'}
+[0.848847] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//meshes/base_link.STL\n'}
+[0.848884] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf\n'}
+[0.848917] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3.csv\n'}
+[0.848950] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3.urdf\n'}
+[0.848983] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3\n'}
+[0.849021] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3/B4WTYPE3.usd\n'}
+[0.849067] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/B4WTYPE3.config\n'}
+[0.849104] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//urdf/vehicle.config\n'}
+[0.849149] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//config\n'}
+[0.849187] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//config/ackermann_controller.yaml\n'}
+[0.849229] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle//config/joint_names_B4WTYPE3.yaml\n'}
+[0.849280] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/lib/vehicle/acker\n'}
+[0.849321] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/package_run_dependencies/vehicle\n'}
+[0.849358] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/parent_prefix_path/vehicle\n'}
+[0.849394] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/ament_prefix_path.sh\n'}
+[0.849428] (vehicle) StdoutLine: {'line': b'-- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/ament_prefix_path.dsv\n'}
+[0.849483] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/path.sh\n'}
+[0.849528] (vehicle) StdoutLine: {'line': b'-- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/environment/path.dsv\n'}
+[0.849658] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.bash\n'}
+[0.849729] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.sh\n'}
+[0.849777] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.zsh\n'}
+[0.849830] (vehicle) StdoutLine: {'line': b'-- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/local_setup.dsv\n'}
+[0.849927] (vehicle) StdoutLine: {'line': b'-- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/package.dsv\n'}
+[0.850071] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/ament_index/resource_index/packages/vehicle\n'}
+[0.850153] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/cmake/vehicleConfig.cmake\n'}
+[0.850198] (vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/ashy/baja_ws/install/vehicle/share/vehicle/cmake/vehicleConfig-version.cmake\n'}
+[0.850250] (vehicle) StdoutLine: {'line': b'-- Installing: /home/ashy/baja_ws/install/vehicle/share/vehicle/package.xml\n'}
+[0.851507] (vehicle) CommandEnded: {'returncode': 0}
+[0.860856] (vehicle) JobEnded: {'identifier': 'vehicle', 'rc': 0}
+[0.861313] (-) EventReactorShutdown: {}

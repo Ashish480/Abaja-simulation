@@ -1,0 +1,254 @@
+<sdf version='1.7'>
+  <model name='vehicle'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0.36874 -0.004744 0.26806 0 -0 0</pose>
+        <mass>6.694</mass>
+        <inertia>
+          <ixx>0.11521</ixx>
+          <ixy>0.0013455</ixy>
+          <ixz>0.0041749</ixz>
+          <iyy>0.14404</iyy>
+          <iyz>0.0027363</iyz>
+          <izz>0.14178</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='JTBKL' type='revolute'>
+      <pose relative_to='base_link'>-0.4541 0.5747 -0.037943 0 -0 0.004044</pose>
+      <parent>base_link</parent>
+      <child>BKL</child>
+      <axis>
+        <xyz>4.3e-05 0.99728 0.073655</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>10</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <damping>0.1</damping>
+          <friction>0.1</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='BKL'>
+      <pose relative_to='JTBKL'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>4.9e-05 -0.043014 -0.003259 0 -0 0</pose>
+        <mass>7.1252</mass>
+        <inertia>
+          <ixx>0.18572</ixx>
+          <ixy>1.2265e-08</ixy>
+          <ixz>-6.0923e-08</ixz>
+          <iyy>0.319</iyy>
+          <iyz>0.0098429</iyz>
+          <izz>0.18645</izz>
+        </inertia>
+      </inertial>
+      <collision name='BKL_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/BKL.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='BKL_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/BKL.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='JTBKR' type='revolute'>
+      <pose relative_to='base_link'>-0.44539 -0.58457 -0.075276 0 -0 0.004044</pose>
+      <parent>base_link</parent>
+      <child>BKR</child>
+      <axis>
+        <xyz>-4.3e-05 -0.99728 -0.073655</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>10</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <damping>0.1</damping>
+          <friction>0.1</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='BKR'>
+      <pose relative_to='JTBKR'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-9.3e-05 0.043018 0.003199 0 -0 0</pose>
+        <mass>7.1252</mass>
+        <inertia>
+          <ixx>0.18572</ixx>
+          <ixy>7.2787e-09</ixy>
+          <ixz>-5.8422e-08</ixz>
+          <iyy>0.319</iyy>
+          <iyz>0.0098429</iyz>
+          <izz>0.18645</izz>
+        </inertia>
+      </inertial>
+      <collision name='BKR_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/BKR.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='BKR_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/BKR.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='JTFRL' type='revolute'>
+      <pose relative_to='base_link'>0.94525 0.63885 -0.035217 0.060377 -0.15703 -0</pose>
+      <parent>base_link</parent>
+      <child>FRL</child>
+      <axis>
+        <xyz>-3.5e-05 -1 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>10</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='FRL'>
+      <pose relative_to='JTFRL'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.005114 -0.025627 -0.003576 0 -0 0</pose>
+        <mass>5.8353</mass>
+        <inertia>
+          <ixx>0.16391</ixx>
+          <ixy>0.00010536</ixy>
+          <ixz>3.7108e-05</ixz>
+          <iyy>0.28026</iyy>
+          <iyz>-2.3603e-05</iyz>
+          <izz>0.16437</izz>
+        </inertia>
+      </inertial>
+      <collision name='FRL_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/FRL.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='FRL_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/FRL.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='JTFRR' type='revolute'>
+      <pose relative_to='base_link'>0.94782 -0.62743 -0.066342 0 -0.15703 0</pose>
+      <parent>base_link</parent>
+      <child>FRR</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>10</effort>
+          <velocity>10</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='FRR'>
+      <pose relative_to='JTFRR'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.002094 0.025627 -0.005879 0 -0 0</pose>
+        <mass>5.8353</mass>
+        <inertia>
+          <ixx>0.16436</ixx>
+          <ixy>5.1439e-06</ixy>
+          <ixz>-8.652e-05</ixz>
+          <iyy>0.28026</iyy>
+          <iyz>0.00010784</iyz>
+          <izz>0.16392</izz>
+        </inertia>
+      </inertial>
+      <collision name='FRR_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/FRR.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='FRR_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://vehicle/meshes/FRR.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <static>0</static>
+    <plugin name='ackermann_steering' filename='libgazebo_ros_diff_drive.so'>
+      <ros2_control>
+        <joint name='JTFRR'/>
+        <joint name='JTFRL'/>
+        <joint name='JTBKL'/>
+        <joint name='JTBKR'/>
+        <command_topic>/cmd_ackermann</command_topic>
+      </ros2_control>
+    </plugin>
+  </model>
+</sdf>

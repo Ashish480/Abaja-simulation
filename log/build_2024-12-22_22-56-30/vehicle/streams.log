@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/ashy/baja_ws/build/vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16
+[0.030s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[0.128s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.129s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.132s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.166s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.166s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.181s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.182s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.291s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.292s]   By not providing "Findignition-gazebo6.cmake" in CMAKE_MODULE_PATH this
+[0.292s]   project has asked CMake to find a package configuration file provided by
+[0.292s]   "ignition-gazebo6", but CMake did not find one.
+[0.292s] 
+[0.292s]   Could not find a package configuration file provided by "ignition-gazebo6"
+[0.292s]   with any of the following names:
+[0.292s] 
+[0.292s]     ignition-gazebo6Config.cmake
+[0.292s]     ignition-gazebo6-config.cmake
+[0.292s] 
+[0.292s]   Add the installation prefix of "ignition-gazebo6" to CMAKE_PREFIX_PATH or
+[0.292s]   set "ignition-gazebo6_DIR" to a directory containing one of the above
+[0.292s]   files.  If "ignition-gazebo6" provides a separate development package or
+[0.292s]   SDK, be sure it has been installed.
+[0.292s] 
+[0.293s] [0m
+[0.293s] -- Configuring incomplete, errors occurred!
+[0.293s] See also "/home/ashy/baja_ws/build/vehicle/CMakeFiles/CMakeOutput.log".
+[0.296s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.299s] Invoked command in '/home/ashy/baja_ws/build/vehicle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ashy/baja_ws/build/vehicle -- -j16 -l16

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<world name="default">
+  <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+
+  <scene>
+    <ambient>1.0 1.0 1.0 1.0</ambient>
+    <background>0.7 0.7 0.7 1.0</background>
+  </scene>
+
+  <include>model://sun</include>
+  <include>model://ground_plane</include>
+  <include>model://walls</include> <!-- Optional: You can include walls or any models you want -->
+
+</world>
